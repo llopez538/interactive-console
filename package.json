@@ -1,0 +1,31 @@
+{
+  "name": "04-home-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sindresorhus/is": "^5.2.0",
+    "colors": "^1.4.0",
+    "inquirer": "^8.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "@types/uuid": "^9.0.1",
+    "node-loader": "^2.0.0",
+    "nodemon": "^2.0.22",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
